@@ -1,0 +1,185 @@
+commit 0ca660f6086a97792ff5341fdeb121aaefada5fc
+Author: ardelivi <ardelivi@amazon.com>
+Date:   Tue Jan 30 21:44:58 2024 +0000
+
+    git revert "I am placing back the line I deleted"
+    
+    Revert "I have delete the thirth line of the song"
+    
+    This reverts commit 99d28f8428745c1a253f3dcdea79638962e70dd1.
+
+diff --git a/choruses.txt b/choruses.txt
+index 573b9c2..9847f7e 100644
+--- a/choruses.txt
++++ b/choruses.txt
+@@ -1,3 +1,4 @@
+ loving you is in my dna
+ loving you is the only way
+ loving you is in my dna
++loving you is in my dna
+
+commit 99d28f8428745c1a253f3dcdea79638962e70dd1
+Author: ardelivi <ardelivi@amazon.com>
+Date:   Tue Jan 30 21:43:40 2024 +0000
+
+    I have delete the thirth line of the song
+
+diff --git a/choruses.txt b/choruses.txt
+index 9847f7e..573b9c2 100644
+--- a/choruses.txt
++++ b/choruses.txt
+@@ -1,4 +1,3 @@
+ loving you is in my dna
+ loving you is the only way
+ loving you is in my dna
+-loving you is in my dna
+
+commit c0df0f22097daa46007e25b498b9011496c8042f
+Author: ardelivi <ardelivi@amazon.com>
+Date:   Tue Jan 30 20:50:09 2024 +0000
+
+    I wanted to make sure all number are in sequence
+    Reapply "I rename the file to be in sequence"
+    
+    This reverts commit 51186b9c30704fb3c6cc4f0fcbd120d291008238.
+
+diff --git a/verse1.txt b/verse1.txt
+new file mode 100644
+index 0000000..fc2ec36
+--- /dev/null
++++ b/verse1.txt
+@@ -0,0 +1,4 @@
++feel like my fingertips
++were made to touch your skin
++there’s only lust for a minute
++i never questioned why, i always knew you were mine
+
+commit 51186b9c30704fb3c6cc4f0fcbd120d291008238
+Author: ardelivi <ardelivi@amazon.com>
+Date:   Tue Jan 30 20:45:13 2024 +0000
+
+    Revert "I rename the file to be in sequence"
+    
+    This reverts commit ec831b0371500b59338a01b10b1c2626723376f9.
+
+diff --git a/verse1.txt b/verse1.txt
+deleted file mode 100644
+index fc2ec36..0000000
+--- a/verse1.txt
++++ /dev/null
+@@ -1,4 +0,0 @@
+-feel like my fingertips
+-were made to touch your skin
+-there’s only lust for a minute
+-i never questioned why, i always knew you were mine
+
+commit ec831b0371500b59338a01b10b1c2626723376f9
+Author: ardelivi <ardelivi@amazon.com>
+Date:   Tue Jan 30 19:57:53 2024 +0000
+
+    I rename the file to be in sequence
+
+diff --git a/verse1.txt b/verse1.txt
+new file mode 100644
+index 0000000..fc2ec36
+--- /dev/null
++++ b/verse1.txt
+@@ -0,0 +1,4 @@
++feel like my fingertips
++were made to touch your skin
++there’s only lust for a minute
++i never questioned why, i always knew you were mine
+
+commit 9d4d19b9971d046f759444416e27f9ae35165fb8
+Author: Ardelean <ardelivi@amazon.com>
+Date:   Tue Jan 30 19:04:27 2024 +0000
+
+    I have saved all files after I place the lirics from my song
+
+diff --git a/choruses.txt b/choruses.txt
+index e69de29..9847f7e 100644
+--- a/choruses.txt
++++ b/choruses.txt
+@@ -0,0 +1,4 @@
++loving you is in my dna
++loving you is the only way
++loving you is in my dna
++loving you is in my dna
+diff --git a/verse2.txt b/verse2.txt
+new file mode 100644
+index 0000000..4bc5600
+--- /dev/null
++++ b/verse2.txt
+@@ -0,0 +1,4 @@
++feel like i hear your voice
++so clear above the noise
++gave me the faith that i needed
++i saw it in your eyes i always knew you were mine
+diff --git a/verse3.txt b/verse3.txt
+new file mode 100644
+index 0000000..4c8012a
+--- /dev/null
++++ b/verse3.txt
+@@ -0,0 +1,4 @@
++you know i, i want you
++aint no one, above you
++you know i, i want you
++aint no one, above you
+
+commit 69a7f7aeeae812fd2fddedbc0c89517486766854
+Author: Ardelean <ardelivi@amazon.com>
+Date:   Tue Jan 30 16:37:45 2024 +0000
+
+    song.txt added the lyrics
+
+diff --git a/choruses.txt b/choruses.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/song.txt b/song.txt
+index e69de29..158682e 100644
+--- a/song.txt
++++ b/song.txt
+@@ -0,0 +1,33 @@
++feel like my fingertips
++were made to touch your skin
++there’s only lust for a minute
++i never questioned why, i always knew you were mine
++loving you is in my dna
++loving you is the only way
++loving you is in my dna
++loving you is in my dna
++
++feel like i hear your voice
++so clear above the noise
++gave me the faith that i needed
++i saw it in your eyes i always knew you were mine
++
++Lyricsbyletras.com
++
++loving you is in my dna
++loving you is the only way
++loving you is in my dna
++loving you is in my dna
++
++is in my dna, is in my dna
++is in my dna, is in my dna
++
++loving you is in my dna
++loving you is the only way
++loving you is in my dna
++loving you is in my dna
++
++you know i, i want you
++aint no one, above you
++you know i, i want you
++aint no one, above you
+
+commit 499e29c25d2508c89d6adfe2892a08147ce981f8
+Author: Ardelean <ardelivi@amazon.com>
+Date:   Tue Jan 30 16:14:38 2024 +0000
+
+    song.txt
+
+diff --git a/song.txt b/song.txt
+new file mode 100644
+index 0000000..e69de29
